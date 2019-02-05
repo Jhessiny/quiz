@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgb(64, 89, 102);
+    color: #eee;
+    padding: 5px;
+}
+#test_status{
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(4, 38, 58, 0.6);
+    color: #fff;
+    font-weight: 200;
+    font-size: 2rem;
+}
+.box{
+    border-radius: 5px;
+    box-shadow: 0 3px 7px #111; 
+    padding: 0 0 25px 0;
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    overflow: hidden;
+}
+
+
+.question{
+    margin: 10px 0 20px 0;
+    font-weight: normal;
+}
+
+#test{
+    padding: 10px 20px 0 20px;
+}
+input{
+    margin: 8px;
+}
+button{
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #eee;
+    background-color: tomato;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(235, 74, 46);
+    cursor: pointer;
+}
+
+.iniciar button{
+    display: block;
+    margin: 0 auto;
+}
